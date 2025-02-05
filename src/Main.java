@@ -6,10 +6,11 @@ public class Main {
                 new Person("Lena",31),
                 new Person("Svetlana",28),
                 new Person("Ron",21),
-                new Person("ark",17),
+                new Person("Mark",29),
         };
         PersonArrayHandler handler = new PersonArrayHandler(people);
         System.out.println(handler);
+        System.out.println("Самый старший: " + handler.get(handler.indexOfMaxAgePerson()));
     }
 }
 
