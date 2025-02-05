@@ -1,7 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Jack",20);
-        System.out.println(person);
+        Person[] people ={
+                new Person("Jack",20),
+                new Person("Nick",18),
+                new Person("Lena",31),
+                new Person("Svetlana",28),
+                new Person("Ron",21),
+                new Person("ark",17),
+        };
+        PersonArrayHandler handler = new PersonArrayHandler(people);
+        System.out.println(handler);
     }
 }
 
