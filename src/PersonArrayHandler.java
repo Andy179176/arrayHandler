@@ -37,6 +37,17 @@ public class PersonArrayHandler {
      return maxIndex>=array.length?-1:maxIndex;
     }
 
+    public boolean isPersonExists(Person person){
+        for(Person p: array){
+            System.out.println(p);
+            if(p.equals(person)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 
 
 }
