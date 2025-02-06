@@ -39,12 +39,15 @@ public class PersonArrayHandler {
 
     public boolean isPersonExists(Person person){
         for(Person p: array){
-            System.out.println(p);
             if(p.equals(person)){
                 return true;
             }
         }
         return false;
+    }
+
+    boolean isPersonExists(Person[] person){
+
     }
 
 
